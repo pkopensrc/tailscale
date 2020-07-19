@@ -83,8 +83,8 @@ change in the future.
 `),
 		Subcommands: []*ffcli.Command{
 			upCmd,
-			netcheckCmd,
-			statusCmd,
+//			netcheckCmd,
+//			statusCmd,
 		},
 		FlagSet: rootfs,
 		Exec:    func(context.Context, []string) error { return flag.ErrHelp },
